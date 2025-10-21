@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
                     /* HAUT DE PAGE */
 
 header {
@@ -33,6 +37,16 @@ section img {
     margin-top: 30px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFFDF;
+}
+
+.navbar :hover {
+    text-decoration: underline;
+    text-decoration-color: #ADD981;
+}
+
 h1 {
     color: white;
     font-family: 'Abril';
@@ -41,6 +55,9 @@ h1 {
     font-weight: 100px;
 }
 
+.title-color {
+    color: #ADD981;
+}
 
                     /* ICON DE PAGE */
 
@@ -142,6 +159,11 @@ i {
     font-weight: bold;
 }
 
+.plant-name-bestseller:hover {
+    text-decoration: underline;
+    text-decoration-color: #ADD981;
+}
+
 .plant-price-bestseller {
     color: #ADD981;
     font-size: 30px;
@@ -178,6 +200,7 @@ i {
     grid-row: 1/3;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .photo-grid2 {
@@ -187,6 +210,7 @@ i {
     grid-column: 3/5;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .photo-grid3 {
@@ -196,6 +220,7 @@ i {
     grid-column: 3/5;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .photo-grid4 {
@@ -206,6 +231,7 @@ i {
     grid-row: 3/5;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .photo-grid5 {
@@ -216,6 +242,7 @@ i {
     grid-row: 3/5;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .photo-grid6 {
@@ -226,6 +253,7 @@ i {
     grid-row: 3/5;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
 }
 
 .container-content-bestplant {
@@ -243,6 +271,11 @@ i {
 .plant-name {
     font-size: 40px;
     font-weight: bold;
+}
+
+.plant-name:hover {
+    text-decoration: underline;
+    text-decoration-color: #ADD981;
 }
 
 .plant-price {
